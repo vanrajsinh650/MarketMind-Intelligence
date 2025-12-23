@@ -46,6 +46,6 @@ if __name__ == "__main__":
     data = fetcher.Fetch_Stocks("RELIANCE")
     
     if data is not None:
-        print("\n📊 Sample Data:")
+        print("\nSample Data:")
         print(data.tail())
         print(f"\nTotal records: {len(data)}")
